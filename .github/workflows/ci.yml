@@ -26,13 +26,7 @@ jobs:
       - name: Lint
         run: yarn lint:ci
 
-      - name: Test
-        run: yarn test:ci
-
-      - name: e2e
-        run: yarn e2e
-
-  test:
+  build-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -52,7 +46,7 @@ jobs:
       - name: Test
         run: yarn test:ci
 
-  e2e:
+  build-e2e:
     runs-on: ubuntu-latest
 
     steps:
