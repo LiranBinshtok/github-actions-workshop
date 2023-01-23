@@ -3,7 +3,7 @@ name: CI
 on:
   pull_request:
     branches:
-      - main
+      - add-more-ci-commands
 
 jobs:
   build-test:
@@ -31,5 +31,3 @@ jobs:
 
       - name: e2e
         run: yarn e2e
-
-
