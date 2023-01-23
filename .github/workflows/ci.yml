@@ -29,5 +29,5 @@ jobs:
       - name: test
         run: yarn test:ci
 
-       - name: e2e
-         run: yarn e2e
+      - name: e2e
+        run: yarn e2e
